@@ -41,7 +41,7 @@ export function MedicalRecordsList({ patientId }: MedicalRecordsListProps) {
     <Card>
       <CardHeader>
         <CardTitle>Histórico de Consultas</CardTitle>
-        <CardDescription>Histórico de consultas e fichas técnicas do paciente.</CardDescription>
+        <CardDescription>Histórico de consultas e fichas clínicas do paciente.</CardDescription>
       </CardHeader>
       <CardContent>
         <Table>

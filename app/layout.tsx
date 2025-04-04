@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Sistema Médico | Dashboard",
   description: "Sistema de gerenciamento para médicos",
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
@@ -27,6 +27,10 @@ export default function RootLayout({
     </html>
   )
 }
+
+import "./globals.css"
+
+import "./globals.css"
 
 
 

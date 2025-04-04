@@ -13,7 +13,7 @@ export default function PatientPage({ params }: { params: { id: string } }) {
       <div className="mt-6">
         <Tabs defaultValue="ficha">
           <TabsList>
-            <TabsTrigger value="ficha">Ficha Técnica</TabsTrigger>
+            <TabsTrigger value="ficha">Ficha Clínica</TabsTrigger>
             <TabsTrigger value="historico">Histórico</TabsTrigger>
           </TabsList>
           <TabsContent value="ficha" className="mt-4">
